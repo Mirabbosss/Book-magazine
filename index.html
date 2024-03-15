@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Magazine</title>
+    <!-- Box-icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container d-flex justify-content-between align-items-center gap-4">
+
+            <div class="logo">
+                <a href="#"><img src="./icons/header_logo.svg" alt="logo"></a>
+
+                <h1 class="d-sm-none">+38 (071) 339-16-26</h1>
+            </div>
+
+            <nav class="nav gap-2 d-none d-lg-flex gap-3">
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Акции</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Каталог</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Доставка</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">О магазине</a>
+                </li>
+
+                <li>
+                    <a href="#" class="text-decoration-none text-black">Блог</a>
+                </li>
+            </nav>
+
+
+            <div class="search_input d-none d-sm-flex align-items-center justify-content-between">
+                <span class="search_icon">
+                    <i class='bx bx-search'></i>
+                </span>
+
+                <input type="text" placeholder="Поиск">
+            </div>
+
+            <div class="menu d-flex gap-3 align-items-center justify-content-be">
+                <a href="#"><img src="./icons/header_favourite_icon.svg" alt="icon" class="d-none d-sm-block"></a>
+                <a href="#"><img src="./icons/header_cart_icon.svg" alt="icon" class="d-none d-sm-block"></a>
+                <div class="dropdown">
+                    <button class="btn btn-light dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        2 228 грн.
+                    </button>
+                    <ul class="dropdown-menu">
+                        <li><button class="dropdown-item" type="button">Action</button></li>
+                        <li><button class="dropdown-item" type="button">Another action</button></li>
+                        <li><button class="dropdown-item" type="button">Something else here</button></li>
+                    </ul>
+                </div>
+                <img src="./icons/header_menu_icon.svg" alt="icon" class="d-md-none">
+            </div>
+
+        </div>
+    </header>
+
+    <main>
+        <section id="intro">
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-12 col-lg-6 d-lg-flex align-items-lg-center justify-content-lg-center">
+
+                        <div class="intro_title">
+
+                            <h1 class="fs-1 text-sm-center">Книги от А до Я</h1>
+
+                            <p class="mt-5 text-sm-center">В нашем магазине можно найти книгу на любой вкус. Большой
+                                ассортимент. Приятные цены. Интересные сюжеты.</p>
+
+                            <button class="btn shadow text-light mx-auto d-block">Перейти в каталог</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 mt-5 col-lg-6">
+                        <img src="/images/header_image.png" alt="image" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="products">
+            <div class="container pt-5">
+
+                <div class="wrapper_list d-md-flex align-items-center justify-content-between">
+                    <h1>Горячие поступления</h1>
+
+                    <ul class="d-flex mt-3 justify-content-between gap-5 mx-auto">
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Фантастика</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Саморазвитие</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Детективы</a>
+                        </li>
+
+                        <li class="list-unstyled d-none d-md-block">
+                            <a href="#" class="text-decoration-none">Детские</a>
+                        </li>
+
+                        <li class="list-unstyled">
+                            <a href="#" class="text-decoration-none">Другое</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="grid row-cols-1 d-flex gap-5 pt-5 align-items-center">
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto">
+                        <div class="card">
+                            <img src="./images/card_1.jpg" alt="product">
+
+                            <h1>300 грн.</h1>
+
+                            <h2>Порядок в Хаосе</h2>
+
+                            <p>Константин Коптелов</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_2.jpg" alt="product">
+
+                            <h1>225 грн.</h1>
+
+                            <h2>Смарагдова книга</h2>
+
+                            <p>Керстин Гир</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_3.jpg" alt="product">
+
+                            <h1>86 грн.</h1>
+
+                            <h2>Зося з вулиці Котячої</h2>
+
+                            <p>Агнешка Тишка</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_4.jpg" alt="product">
+
+                            <h1>214 грн.</h1>
+
+                            <h2>Мотиватор</h2>
+
+                            <p>Наталія ЗотоваКонстантин Коптелов</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_5.jpg" alt="product">
+
+                            <h1>778 грн.</h1>
+
+                            <h2>Без маски</h2>
+
+                            <p>Михаил Бурняшев</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="container pt-5">
+
+                <div class="wrapper_list">
+                    <h1 class="text-center">Распродажа</h1>
+                </div>
+
+                <div class="grid row-cols-1 d-flex gap-5 pt-5 align-items-center">
+                    <div class="col-12 col-sm-4 col-md-2 mx-auto">
+                        <div class="card">
+                            <img src="./images/card_1.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">379 грн.</h3>
+
+                            <h1>300 грн.</h1>
+
+                            <h2>Порядок в Хаосе</h2>
+
+                            <p>Константин Коптелов</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_2.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">250 грн.</h3>
+
+                            <h1>225 грн.</h1>
+
+                            <h2>Смарагдова книга</h2>
+
+                            <p>Керстин Гир</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_3.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">100 грн.</h3>
+
+                            <h1>86 грн.</h1>
+
+                            <h2>Зося з вулиці Котячої</h2>
+
+                            <p>Агнешка Тишка</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_4.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">254 грн.</h3>
+
+                            <h1>214 грн.</h1>
+
+                            <h2>Мотиватор</h2>
+
+                            <p>Наталія ЗотоваКонстантин Коптелов</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-4 col-md-2">
+                        <div class="card">
+                            <img src="./images/card_5.jpg" alt="product">
+
+                            <h3 class="text-end text-danger text-decoration-line-through fs-5">810 грн.</h3>
+
+                            <h1>778 грн.</h1>
+
+                            <h2>Без маски</h2>
+
+                            <p>Михаил Бурняшев</p>
+
+                            <div class="btn_card">
+
+                                <button>В корзину</button>
+
+                                <img src="./icons/card_favourite.svg" alt="icon">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="catalog">
+            <div class="container">
+
+                <div class="wrapper_list">
+                    <h1 class="text-center">Каталог</h1>
+                </div>
+
+                <div class="row gap-5 mx-auto mt-5">
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Книги</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Электронные книги</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Аудиокниги</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Книжные аксессуарые</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Игрушки, творчество</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Настольные игрые</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Подарки</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Блокноты</h1>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-sm-3 mx-auto">
+                        <div class="wrap mx-auto">
+                            <h1>Акции</h1>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="pt-5 mb-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">35</p>
+                        <p>Филиалов по всей стране</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">880</p>
+                        <p>Товаров в каталоге</p>
+                    </div>
+
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">8659</p>
+                        <p>Покупателей</p>
+                    </div>
+
+                    <div class="col-12 col-md-6 col-lg-3 d-flex gap-4 align-items-center">
+                        <p class="display-3 fw-bold">72</p>
+                        <p>Часов доставка по городам</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+
+    </main>
+</body>
+
+<script src="./index.js"></script>
+
+</html>

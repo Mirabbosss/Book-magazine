@@ -1,0 +1,243 @@
+@import "./bootstrap.min.css";
+
+body {
+    font-family: sans-serif;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    background-color: #ffffff;
+}
+
+header .container {
+    padding: 20px 10px;
+    gap: 10px;
+}
+
+header .logo h1 {
+    font-size: 12px;
+    font-weight: 900;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 22px;
+}
+
+header nav {
+    width: 343px;
+}
+
+header .nav a {
+    height: 24px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+header h1 {
+    height: 16px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #241400;
+    margin-top: 10px;
+}
+
+header .search_input {
+    border-bottom: 1px solid gray;
+}
+
+header input {
+    border: none;
+    outline: none;
+}
+
+#intro {
+    padding-top: 100px;
+}
+
+#intro h1 {
+    height: 33px;
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 71px;
+    letter-spacing: 0em;
+    color: #241400;
+}
+
+#intro p {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    color: #241400;
+}
+
+#intro .btn {
+    background-color: #E16A00;
+    border: none;
+    padding: 10px 40px;
+    width: 240px;
+}
+
+#products {
+    width: 100%;
+}
+
+#products .wrapper_list h1 {
+    width: 306px;
+    height: 49px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #241400;
+}
+
+#products .wrapper_list a {
+    color: #241400;
+    height: 26px;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25.5px;
+}
+
+#products .grid {
+    overflow-x: scroll;
+}
+
+#products .card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#products .card:hover {
+    box-shadow: none;
+}
+
+#products .card h1 {
+    width: 81px;
+    height: 13px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 35px;
+    text-align: left;
+    color: #241400;
+    margin-bottom: 18px;
+}
+
+#products .card h2 {
+    width: 141px;
+    height: 9px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 23.54px;
+    text-align: left;
+    color: #241400;
+    margin-bottom: 18px;
+}
+
+#products .card p {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 9px;
+    color: #241400;
+    padding-bottom: 10px;
+}
+
+#products .card button {
+    border-radius: 3px;
+    background-color: #E16A00;
+    border: 1px solid #E16A00;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 23.54px;
+    margin-top: 28px;
+}
+
+#products .card button:hover {
+    color: #E16A00;
+    background-color: #ffffff;
+}
+
+#catalog {
+    width: 100%;
+    padding: 50px 0;
+}
+
+#catalog .wrap {
+    width: 180px;
+    height: 76px;
+    border-radius: 10px;
+    display: grid;
+    place-content: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+}
+
+#catalog .wrap:hover {
+    box-shadow: rgba(50, 50, 93, 0.15) 0px 13px 27px -5px, rgba(0, 0, 0, 0.2) 0px 8px 16px -8px;
+}
+
+#catalog .wrap h1 {
+    width: 176px;
+    height: 27px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #241400;
+}
+
+#catalog .wrapper_list h1 {
+    height: 49px;
+    font-size: 25px;
+    font-weight: 900;
+    line-height: 49px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #241400;
+    margin-top: 50px;
+}
+
+#catalog .card_title {
+    display: flex;
+    align-items: center;
+    
+}
+
+#catalog .card_title h1 {
+    width: 131px;
+    height: 98px;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 98px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #241400;
+}
+
+#catalog .card_title p {
+    width: 189px;
+    height: 26px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    color: #241400;
+}
+
